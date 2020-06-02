@@ -1,0 +1,177 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>电影网站大全_电影网站排行榜_电影网址导航 - 电影导航网</title>
+<meta name="keywords" content="电影网站,电影导航">
+<meta name="description" content="电影导航网(www.dydh.org)是国内专业的电影网址导航网站。人工整理优秀的在线电影网站大全、电影网站排行榜和电影下载网站大全，为大家在线看电影和下载电影提供便利。">
+<meta name="mobile-agent" content="format=xhtml;url=http://m.dydh.org/">
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" href="/template/movie/css/style.css">
+</head>
+<body>
+<!-- 顶部 -->
+<div id="top">
+    <div id="top_bar">
+        <div class="top_bar_left">
+            <span>欢迎访问电影导航网.<a href="https://www.poplp.com/shoulu/" target="_blank" style="background:#f00;color:#fff;padding:0 5px;border-radius:3px;font-size:16px;">免费收录入口</a></span>
+        </div>
+        <div class="top_bar_right">
+            <a  href="/" target="_blank">返回首页</a>
+            ┆<a href="javascript:window.external.AddFavorite('http://www.dydh.org', '电影网站大全')">加入收藏</a>
+
+
+        </div>
+    </div>
+</div>
+<!-- 内容主体 -->
+<div id="bodymain">
+    <!-- logo and search -->
+    <div class="header">
+        <h1 id="header_logo"><a href="/" target="_self"><img width="210" height="60" src="/template/movie/images/logo.png"></a></h1>
+        <div id="search_wrap">
+            <div id="search_box">
+                <form id="search_form" action="http://www.baidu.com/s" target="_blank">
+                    <span class="search_site" name="site">
+                        <span id="search_site_cur">百 度</span>
+                        <span id="search_site_list">
+                            <span action="http://www.baidu.com/s" query="wd">百 度</span>
+                            <span action="http://www.soku.com/v" query="keyword">优 酷</span>
+                            <span action="http://www.sogou.com/web" query="query">搜 狗</span>
+                            <span action="http://www.so.com/s" query="q">360</span>
+                            <span action="https://www.google.com.hk/search" query="q">Google</span>
+                        </span>
+                    </span>
+                    <input class="kw" type="text" name="wd" maxlength="100" autocomplete="off" baiduSug="1">
+                    <button class="bt" hidefocus="true" type="submit">搜索电影</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 导航 -->
+    <div id="nav">
+        <ul class="nav_wrap_ul clearfix">
+						            <li class="nav_list_li">
+                <div class="nav_list_li_title"><a href="http://www.dydh.org/mingzhan/" target="_self">影视名站</a></div>
+            </li>            <li class="nav_list_li">
+                <div class="nav_list_li_title"><a href="http://www.dydh.org/zaixian/" target="_self">在线电影</a></div>
+            </li>            <li class="nav_list_li">
+                <div class="nav_list_li_title"><a href="http://www.dydh.org/xiazai/" target="_self">电影下载</a></div>
+            </li>            <li class="nav_list_li">
+                <div class="nav_list_li_title"><a href="http://www.dydh.org/weidianying/" target="_self">微电影</a></div>
+            </li>            <li class="nav_list_li">
+                <div class="nav_list_li_title"><a href="http://www.dydh.org/shouji/" target="_self">手机电影</a></div>
+            </li>            <li class="nav_list_li">
+                <div class="nav_list_li_title"><a href="http://www.dydh.org/yugaopian/" target="_self">预告片</a></div>
+            </li>            <li class="nav_list_li">
+                <div class="nav_list_li_title"><a href="http://www.dydh.org/news/" target="_self">电影资讯</a></div>
+            </li>            <li class="nav_list_li">
+                <div class="nav_list_li_title"><a href="http://www.dydh.org/dianyingpiao/" target="_self">电影票</a></div>
+            </li>            <li class="nav_list_li">
+                <div class="nav_list_li_title"><a href="http://www.dydh.org/dianyingjie/" target="_self">电影节</a></div>
+            </li>            <li class="nav_list_li">
+                <div class="nav_list_li_title"><a href="http://www.dydh.org/zhoubian/" target="_self">电影周边</a></div>
+            </li>        </ul>
+    </div>
+    <!-- 电影名站 -->
+    <div class="name_station">
+        <ul>
+			<li><a href="http://www.iqiyi.com/dianying/" rel="nofollow" title="爱奇艺电影"  target="_blank"><img onerror="this.src='/statics/images/nophoto.gif';" alt="爱奇艺电影" src="/data/attachment/2014/04/2909404560.png"  width="100" height="50" /><span>爱奇艺电影</span></a></li><li><a href="http://movie.le.com/" rel="nofollow" title="乐视电影"  target="_blank"><img onerror="this.src='/statics/images/nophoto.gif';" alt="乐视电影" src="/data/attachment/2014/04/2909415431.jpg"  width="100" height="50" /><span>乐视电影</span></a></li><li><a href="http://v.qq.com/movie/" rel="nofollow" title="腾讯电影"  target="_blank"><img onerror="this.src='/statics/images/nophoto.gif';" alt="腾讯电影" src="/data/attachment/2014/04/2909530417.jpg"  width="100" height="50" /><span>腾讯电影</span></a></li><li><a href="http://www.mgtv.com/movie/" rel="nofollow" title="芒果TV电影"  target="_blank"><img onerror="this.src='/statics/images/nophoto.gif';" alt="芒果TV电影" src="/data/attachment/2016/05/1311345719.jpg"  width="100" height="50" /><span>芒果TV电影</span></a></li><li><a href="http://tv.sohu.com/movie/" rel="nofollow" title="搜狐电影"  target="_blank"><img onerror="this.src='/statics/images/nophoto.gif';" alt="搜狐电影" src="/data/attachment/2014/04/2909372317.png"  width="100" height="50" /><span>搜狐电影</span></a></li><li><a href="http://movie.youku.com/" rel="nofollow" title="优酷电影"  target="_blank"><img onerror="this.src='/statics/images/nophoto.gif';" alt="优酷电影" src="/data/attachment/2014/04/2909363921.png"  width="100" height="50" /><span>优酷电影</span></a></li><li><a href="http://movie.tudou.com/" rel="nofollow" title="土豆电影"  target="_blank"><img onerror="this.src='/statics/images/nophoto.gif';" alt="土豆电影" src="/data/attachment/2014/04/2909390895.jpg"  width="100" height="50" /><span>土豆电影</span></a></li><li><a href="http://movie.pptv.com/" rel="nofollow" title="PPTV电影"  target="_blank"><img onerror="this.src='/statics/images/nophoto.gif';" alt="PPTV电影" src="/data/attachment/2014/04/2909442533.png"  width="100" height="50" /><span>PPTV电影</span></a></li><li><a href="http://www.dydh.org/zaixian/cb6e0980.html" rel="nofollow" title="光棍电影_福利视频手机线在线观看"  target="_blank"><img onerror="this.src='/statics/images/nophoto.gif';" alt="光棍电影_福利视频手机线在线观看" src="/statics/images/nophoto.gif"  width="100" height="50" /><span>光棍电影_福利视频手机线在线观看</span></a></li><li><a href="http://www.m1905.com/vod/" rel="nofollow" title="M1905电影"  target="_blank"><img onerror="this.src='/statics/images/nophoto.gif';" alt="M1905电影" src="/data/attachment/2014/04/2909425025.jpg"  width="100" height="50" /><span>M1905电影</span></a></li><li><a href="http://video.sina.com.cn/movie/" rel="nofollow" title="新浪大片"  target="_blank"><img onerror="this.src='/statics/images/nophoto.gif';" alt="新浪大片" src="/data/attachment/2014/04/2909434775.png"  width="100" height="50" /><span>新浪大片</span></a></li><li><a href="http://www.juchang.cn/movie/" rel="nofollow" title="酷6电影"  target="_blank"><img onerror="this.src='/statics/images/nophoto.gif';" alt="酷6电影" src="/data/attachment/2014/04/2909451737.png"  width="100" height="50" /><span>酷6电影</span></a></li><li><a href="http://www.fun.tv/movie/" rel="nofollow" title="风行电影"  target="_blank"><img onerror="this.src='/statics/images/nophoto.gif';" alt="风行电影" src="/data/attachment/2014/04/2909493299.jpg"  width="100" height="50" /><span>风行电影</span></a></li><li><a href="http://movielist.56.com/" rel="nofollow" title="56网电影"  target="_blank"><img onerror="this.src='/statics/images/nophoto.gif';" alt="56网电影" src="/data/attachment/2014/04/2909512114.jpg"  width="100" height="50" /><span>56网电影</span></a></li><li><a href="http://www.xiankan.com/" rel="nofollow" title="先看电影"  target="_blank"><img onerror="this.src='/statics/images/nophoto.gif';" alt="先看电影" src="/data/attachment/2016/05/1311400415.png"  width="100" height="50" /><span>先看电影</span></a></li><li><a href="http://movie.kankan.com/" rel="nofollow" title="迅雷看看电影"  target="_blank"><img onerror="this.src='/statics/images/nophoto.gif';" alt="迅雷看看电影" src="/data/attachment/2014/04/2909552931.jpg"  width="100" height="50" /><span>迅雷看看电影</span></a></li><li><a href="http://1905.dianying.cntv.cn/" rel="nofollow" title="CNTV电影"  target="_blank"><img onerror="this.src='/statics/images/nophoto.gif';" alt="CNTV电影" src="/data/attachment/2014/04/2909564848.jpg"  width="100" height="50" /><span>CNTV电影</span></a></li><li><a href="http://www.baofeng.com/movie.html" rel="nofollow" title="暴风影音电影"  target="_blank"><img onerror="this.src='/statics/images/nophoto.gif';" alt="暴风影音电影" src="/data/attachment/2014/04/3009382012.jpg"  width="100" height="50" /><span>暴风影音电影</span></a></li><li><a href="http://movie.wasu.cn/" rel="nofollow" title="华数TV电影"  target="_blank"><img onerror="this.src='/statics/images/nophoto.gif';" alt="华数TV电影" src="/data/attachment/2014/04/2910035180.jpg"  width="100" height="50" /><span>华数TV电影</span></a></li><li><a href="http://www.mtime.com/" rel="nofollow" title="Mtime时光网"  target="_blank"><img onerror="this.src='/statics/images/nophoto.gif';" alt="Mtime时光网" src="/data/attachment/2014/04/2910063051.jpg"  width="100" height="50" /><span>Mtime时光网</span></a></li>        </ul>
+    </div>
+    <!-- 电影网址 -->
+    <div class="white_bg site_movie">
+		        <div class="section_movie ">
+			            <h3><a href="http://www.dydh.org/mingzhan/" target="_blank" class="more">更多>></a><a href="http://www.dydh.org/mingzhan/">影视名站</a></h3>
+            <ul>
+                                <li><a href="http://www.dydh.org/mingzhan/youku.html" title="优酷网" target="_blank" class="title0">优酷网</a></li><li><a href="http://www.dydh.org/mingzhan/tudou.html" title="土豆网" target="_blank" class="title0">土豆网</a></li><li><a href="http://www.dydh.org/mingzhan/iqiyi.html" title="爱奇艺" target="_blank" class="title0">爱奇艺</a></li><li><a href="http://www.dydh.org/mingzhan/letv.html" title="乐视网" target="_blank" class="title0">乐视网</a></li><li><a href="http://www.dydh.org/mingzhan/sohu.html" title="搜狐视频" target="_blank" class="title0">搜狐视频</a></li><li><a href="http://www.dydh.org/mingzhan/qq.html" title="腾讯视频" target="_blank" class="title0">腾讯视频</a></li><li><a href="http://www.dydh.org/mingzhan/sina.html" title="新浪视频" target="_blank" class="title">新浪视频</a></li><li><a href="http://www.dydh.org/mingzhan/sanzei.html" title="三贼网" target="_blank" class="title1">三贼网</a></li><li><a href="http://www.dydh.org/mingzhan/fenghuangshipin.html" title="凤凰视频" target="_blank" class="title0">凤凰视频</a></li><li><a href="http://www.dydh.org/mingzhan/yangshiwangshipin.html" title="央视网" target="_blank" class="title0">央视网</a></li><li><a href="http://www.dydh.org/mingzhan/pptv.html" title="PPTV" target="_blank" class="title0">PPTV</a></li><li><a href="http://www.dydh.org/mingzhan/pps.html" title="PPS" target="_blank" class="title0">PPS</a></li><li><a href="http://www.dydh.org/mingzhan/fengxingwang.html" title="风行网" target="_blank" class="title0">风行网</a></li><li><a href="http://www.dydh.org/mingzhan/xunleikankan.html" title="迅雷看看" target="_blank" class="title0">迅雷看看</a></li><li><a href="http://www.dydh.org/mingzhan/ku6wang.html" title="酷6网" target="_blank" class="title0">酷6网</a></li><li><a href="http://www.dydh.org/mingzhan/56wang.html" title="56网" target="_blank" class="title0">56网</a></li><li><a href="http://www.dydh.org/mingzhan/7bcca68e.html" title="1905电影网" target="_blank" class="title0">1905电影网</a></li><li><a href="http://www.dydh.org/mingzhan/jidongwang.html" title="激动网" target="_blank" class="title0">激动网</a></li>                            </ul>
+        </div>        <div class="section_movie ">
+			            <h3><a href="http://www.dydh.org/zaixian/" target="_blank" class="more">更多>></a><a href="http://www.dydh.org/zaixian/">在线电影</a></h3>
+            <ul>
+                                <li><a href="http://www.piaohua360.com/" title="飘花电影网" target="_blank" class="title0">飘花电影网</a></li>
+                <li><a href="http://www.bajiedianying.com/" title="八戒影院" target="_blank" class="title0">八戒影院</a></li>
+                <li><a href="http://www.qpg123.com/" title="青苹果影院" target="_blank" class="title0">青苹果影院</a></li>
+                <li><a href="https://www.guanggun163.com" title="光棍电影" target="_blank" class="title0">光棍电影</a></li>
+                <li><a href="https://www.xsjyy8.com/" title="新视觉影院" target="_blank" class="title0">新视觉影院</a></li>
+                <li><a href="https://www.qsyyw.com/" title="骑士影院" target="_blank" class="title0">骑士影院</a></li>
+                <li><a href="https://www.03yyw.com" title="03影院" target="_blank" class="title0">03影院</a></li>
+                <li><a href="https://www.tlys8.com/" title="天狼影院—老司机福利视频" target="_blank" class="title0">天狼影院—老司机福利视频</a></li>
+                <li><a href="https://www.tomys8.com/" title="汤姆影院_最新福利电影在线观看" target="_blank" class="title0">汤姆影院_最新福利电影在线观看</a></li>
+                <li><a href="http://www.dydh.org/zaixian/mianbaodianyingwang.html" title="面包网" target="_blank" class="title0">面包网</a></li><li><a href="http://www.dydh.org/zaixian/repianwang.html" title="热片网" target="_blank" class="title0">热片网</a></li><li><a href="http://www.dydh.org/zaixian/fangfangdianying.html" title="放放电影" target="_blank" class="title0">放放电影</a></li><li><a href="http://www.dydh.org/zaixian/renrenkandianying.html" title="人人看电影" target="_blank" class="title0">人人看电影</a></li><li><a href="http://www.dydh.org/zaixian/xunboyingyuan.html" title="迅播影院" target="_blank" class="title0">迅播影院</a></li><li><a href="http://www.dydh.org/zaixian/dianyingfm.html" title="电影FM" target="_blank" class="title0">电影FM</a></li><li><a href="http://www.dydh.org/zaixian/quanjiwang.html" title="全集网" target="_blank" class="title0">全集网</a></li><li><a href="http://www.dydh.org/zaixian/kekedianying.html" title="可可电影" target="_blank" class="title0">可可电影</a></li><li><a href="http://www.dydh.org/zaixian/qiqibudianyingwang.html" title="琪琪布电影网" target="_blank" class="title0">琪琪布电影网</a></li>                            </ul>
+        </div>        <div class="section_movie ">
+			            <h3><a href="http://www.dydh.org/xiazai/" target="_blank" class="more">更多>></a><a href="http://www.dydh.org/xiazai/">电影下载</a></h3>
+            <ul>
+                                <li><a href="http://www.dydh.org/xiazai/dianyingtiantang.html" title="电影天堂" target="_blank" class="title0">电影天堂</a></li><li><a href="http://www.dydh.org/xiazai/6vdianyingxiazai.html" title="6V电影下载" target="_blank" class="title0">6V电影下载</a></li><li><a href="http://www.dydh.org/xiazai/feiniaoyule.html" title="飞鸟娱乐" target="_blank" class="title0">飞鸟娱乐</a></li><li><a href="http://www.dydh.org/xiazai/longbuluo.html" title="龙部落" target="_blank" class="title0">龙部落</a></li><li><a href="http://www.dydh.org/xiazai/qietingfengyin.html" title="且听风吟" target="_blank" class="title0">且听风吟</a></li><li><a href="http://www.dydh.org/xiazai/wuyouwulu.html" title="无忧无虑" target="_blank" class="title0">无忧无虑</a></li><li><a href="http://www.dydh.org/xiazai/piaohuadianying.html" title="飘花电影" target="_blank" class="title0">飘花电影</a></li><li><a href="http://www.dydh.org/xiazai/66yingshi.html" title="66影视" target="_blank" class="title0">66影视</a></li><li><a href="http://www.dydh.org/xiazai/xunleipu.html" title="迅雷铺" target="_blank" class="title0">迅雷铺</a></li><li><a href="http://www.dydh.org/xiazai/yingshidiguo.html" title="影视帝国" target="_blank" class="title0">影视帝国</a></li><li><a href="http://www.dydh.org/xiazai/wujidianying.html" title="无极电影" target="_blank" class="title0">无极电影</a></li><li><a href="http://www.dydh.org/xiazai/gaoqingmp4ba.html" title="高清MP4吧" target="_blank" class="title0">高清MP4吧</a></li><li><a href="http://www.dydh.org/xiazai/kumaodianyingwang.html" title="酷猫电影网" target="_blank" class="title0">酷猫电影网</a></li><li><a href="http://www.dydh.org/xiazai/languangdianying.html" title="蓝光电影网" target="_blank" class="title0">蓝光电影网</a></li><li><a href="http://www.dydh.org/xiazai/78dianyingwang.html" title="78电影网" target="_blank" class="title0">78电影网</a></li><li><a href="http://www.dydh.org/xiazai/114dianyingwang.html" title="114电影网" target="_blank" class="title0">114电影网</a></li><li><a href="http://www.dydh.org/xiazai/youyouniaodianyingwang.html" title="悠悠鸟电影网" target="_blank" class="title0">悠悠鸟电影网</a></li><li><a href="http://www.dydh.org/xiazai/btdy.html" title="bt电影网" target="_blank" class="title0">bt电影网</a></li>                            </ul>
+        </div>        <div class="section_movie ">
+			            <h3><a href="http://www.dydh.org/weidianying/" target="_blank" class="more">更多>></a><a href="http://www.dydh.org/weidianying/">微电影</a></h3>
+            <ul>
+                                <li><a href="http://www.dydh.org/weidianying/vdianying.html" title="V电影" target="_blank" class="title0">V电影</a></li><li><a href="http://www.dydh.org/weidianying/88cb6141.html" title="M1905微电影" target="_blank" class="title0">M1905微电影</a></li><li><a href="http://www.dydh.org/weidianying/tengxunweidianying.html" title="腾讯微电影" target="_blank" class="title0">腾讯微电影</a></li><li><a href="http://www.dydh.org/weidianying/aiqiyiweidianying.html" title="爱奇艺微电影" target="_blank" class="title0">爱奇艺微电影</a></li><li><a href="http://www.dydh.org/weidianying/xunleikankanweidianying.html" title="迅雷看看微电影" target="_blank" class="title0">迅雷看看微电影</a></li><li><a href="http://www.dydh.org/weidianying/jinxiangweidianying.html" title="金象微电影" target="_blank" class="title0">金象微电影</a></li><li><a href="http://www.dydh.org/weidianying/weidianyingdaquan.html" title="微电影大全" target="_blank" class="title0">微电影大全</a></li><li><a href="http://www.dydh.org/weidianying/yangshiwangweidianying.html" title="央视网微电影" target="_blank" class="title0">央视网微电影</a></li><li><a href="http://www.dydh.org/weidianying/jiujiuweidianying.html" title="久久微电影" target="_blank" class="title0">久久微电影</a></li><li><a href="http://www.dydh.org/weidianying/aiweiwang.html" title="爱微网" target="_blank" class="title0">爱微网</a></li><li><a href="http://www.dydh.org/weidianying/56weidianying.html" title="56微电影" target="_blank" class="title0">56微电影</a></li><li><a href="http://www.dydh.org/weidianying/muguadianyingwang.html" title="木瓜电影网" target="_blank" class="title0">木瓜电影网</a></li>                            </ul>
+        </div>        <div class="section_movie ">
+			            <h3><a href="http://www.dydh.org/shouji/" target="_blank" class="more">更多>></a><a href="http://www.dydh.org/shouji/">手机电影</a></h3>
+            <ul>
+                                <li><a href="http://www.dydh.org/shouji/80sshoujidianying.html" title="80s手机电影" target="_blank" class="title0">80s手机电影</a></li><li><a href="http://www.dydh.org/shouji/4f31760d.html" title="7060手机电影" target="_blank" class="title0">7060手机电影</a></li><li><a href="http://www.dydh.org/shouji/a67shoujidianying.html" title="A67手机电影" target="_blank" class="title0">A67手机电影</a></li><li><a href="http://www.dydh.org/shouji/8eshoujidianying.html" title="八亿手机电影" target="_blank" class="title0">八亿手机电影</a></li><li><a href="http://www.dydh.org/shouji/eccd39d5.html" title="AAPiG电影网" target="_blank" class="title0">AAPiG电影网</a></li><li><a href="http://www.dydh.org/shouji/tujiedianying.html" title="图解电影网" target="_blank" class="title0">图解电影网</a></li><li><a href="http://www.dydh.org/shouji/95afddd0.html" title="87电影院" target="_blank" class="title0">87电影院</a></li><li><a href="http://www.dydh.org/shouji/8715f5c1.html" title="五杀电影院" target="_blank" class="title0">五杀电影院</a></li><li><a href="http://www.dydh.org/shouji/d6916f91.html" title="神马电影网" target="_blank" class="title0">神马电影网</a></li><li><a href="http://www.dydh.org/shouji/98654326.html" title="飘花电影网" target="_blank" class="title0">飘花电影网</a></li><li><a href="http://www.dydh.org/shouji/b228aff3.html" title="八戒影院" target="_blank" class="title0">八戒影院</a></li><li><a href="http://www.dydh.org/shouji/c30b9b25.html" title="青苹果影院" target="_blank" class="title0">青苹果影院</a></li>                            </ul>
+        </div>        
+		        <div class="section_movie ">
+			            <h3><a href="http://www.dydh.org/dianyingpiao/" target="_blank" class="more">更多>></a><a href="http://www.dydh.org/dianyingpiao/">电影票</a></h3>
+            <ul>
+                <li><a href="http://www.dydh.org/dianyingpiao/wangpiao.html" title="网票网" target="_blank" class="title0">网票网</a></li><li><a href="http://www.dydh.org/dianyingpiao/gewala.html" title="格瓦拉" target="_blank" class="title0">格瓦拉</a></li><li><a href="http://www.dydh.org/dianyingpiao/wepiao.html" title="微票儿" target="_blank" class="title0">微票儿</a></li><li><a href="http://www.dydh.org/dianyingpiao/wangyidianyingpiao.html" title="网易电影票" target="_blank" class="title0">网易电影票</a></li><li><a href="http://www.dydh.org/dianyingpiao/wandadianying.html" title="万达电影" target="_blank" class="title0">万达电影</a></li><li><a href="http://www.dydh.org/dianyingpiao/jingdongdianyingpiao.html" title="京东电影票" target="_blank" class="title0">京东电影票</a></li><li><a href="http://www.dydh.org/dianyingpiao/piaolala.html" title="票啦啦" target="_blank" class="title0">票啦啦</a></li><li><a href="http://www.dydh.org/dianyingpiao/doubandianyingpiao.html" title="豆瓣电影票" target="_blank" class="title0">豆瓣电影票</a></li><li><a href="http://www.dydh.org/dianyingpiao/maizuowang.html" title="卖座网" target="_blank" class="title0">卖座网</a></li><li><a href="http://www.dydh.org/dianyingpiao/shiguangwangdianyingpiao.html" title="时光网电影票" target="_blank" class="title0">时光网电影票</a></li><li><a href="http://www.dydh.org/dianyingpiao/hapiaowang.html" title="哈票网" target="_blank" class="title0">哈票网</a></li><li><a href="http://www.dydh.org/dianyingpiao/taobaodianyingpiao.html" title="淘宝电影票" target="_blank" class="title0">淘宝电影票</a></li><li><a href="http://www.dydh.org/dianyingpiao/koudianyingwang.html" title="抠电影网" target="_blank" class="title0">抠电影网</a></li>            </ul>
+        </div>        <div class="section_movie ">
+			            <h3><a href="http://www.dydh.org/dianyingjie/" target="_blank" class="more">更多>></a><a href="http://www.dydh.org/dianyingjie/">电影节</a></h3>
+            <ul>
+                <li><a href="http://www.dydh.org/dianyingjie/aosikajinxiangjiang.html" title="奥斯卡金像奖" target="_blank" class="title0">奥斯卡金像奖</a></li><li><a href="http://www.dydh.org/dianyingjie/jianadianyingjie.html" title="戛纳电影节" target="_blank" class="title0">戛纳电影节</a></li><li><a href="http://www.dydh.org/dianyingjie/weinisidianyingjie.html" title="威尼斯电影节" target="_blank" class="title0">威尼斯电影节</a></li><li><a href="http://www.dydh.org/dianyingjie/bailindianyingjie.html" title="柏林电影节" target="_blank" class="title0">柏林电影节</a></li><li><a href="http://www.dydh.org/dianyingjie/xianggangjinxiangjiang.html" title="香港金像奖" target="_blank" class="title0">香港金像奖</a></li><li><a href="http://www.dydh.org/dianyingjie/taiwanjinmajiang.html" title="台湾金马奖" target="_blank" class="title0">台湾金马奖</a></li><li><a href="http://www.dydh.org/dianyingjie/jinjijiang.html" title="百花电影节" target="_blank" class="title0">百花电影节</a></li><li><a href="http://www.dydh.org/dianyingjie/beijingguojidianyingjie.html" title="北京国际电影节" target="_blank" class="title0">北京国际电影节</a></li><li><a href="http://www.dydh.org/dianyingjie/changchundianyingjie.html" title="长春电影节" target="_blank" class="title0">长春电影节</a></li><li><a href="http://www.dydh.org/dianyingjie/shanghaiguojidianyingjie.html" title="上海国际电影节" target="_blank" class="title0">上海国际电影节</a></li><li><a href="http://www.dydh.org/dianyingjie/daxueshengdianyingjie.html" title="大学生电影节" target="_blank" class="title0">大学生电影节</a></li><li><a href="http://www.dydh.org/dianyingjie/taibeidianyingjie.html" title="台北电影节" target="_blank" class="title0">台北电影节</a></li><li><a href="http://www.dydh.org/dianyingjie/xianggangguojidianyingjie.html" title="香港国际电影节" target="_blank" class="title0">香港国际电影节</a></li><li><a href="http://www.dydh.org/dianyingjie/aidingbaodianyingjie.html" title="爱丁堡电影节" target="_blank" class="title0">爱丁堡电影节</a></li><li><a href="http://www.dydh.org/dianyingjie/dongjingguojidianyingjie.html" title="东京国际电影节" target="_blank" class="title0">东京国际电影节</a></li><li><a href="http://www.dydh.org/dianyingjie/mengtelierdianyingjie.html" title="蒙特利尔电影节" target="_blank" class="title0">蒙特利尔电影节</a></li><li><a href="http://www.dydh.org/dianyingjie/shengdansidianyingjie.html" title="圣丹斯电影节" target="_blank" class="title0">圣丹斯电影节</a></li><li><a href="http://www.dydh.org/dianyingjie/zhongguodianyinghuabiaojiang.html" title="中国电影华表奖" target="_blank" class="title0">中国电影华表奖</a></li>            </ul>
+        </div>        <div class="section_movie ">
+			            <h3><a href="http://www.dydh.org/zhoubian/" target="_blank" class="more">更多>></a><a href="http://www.dydh.org/zhoubian/">电影周边</a></h3>
+            <ul>
+                <li><a href="http://www.dydh.org/zhoubian/renrenyingshizimu.html" title="人人影视" target="_blank" class="title0">人人影视</a></li><li><a href="http://www.dydh.org/zhoubian/sheshouzimu.html" title="射手字幕网" target="_blank" class="title0">射手字幕网</a></li><li><a href="http://www.dydh.org/zhoubian/doubandianying.html" title="豆瓣影评" target="_blank" class="title0">豆瓣影评</a></li><li><a href="http://www.dydh.org/zhoubian/shiguangwangshequ.html" title="时光网社区" target="_blank" class="title0">时光网社区</a></li><li><a href="http://www.dydh.org/zhoubian/litizhongguo.html" title="立体中国" target="_blank" class="title0">立体中国</a></li><li><a href="http://www.dydh.org/zhoubian/imdb.html" title="IMDB" target="_blank" class="title0">IMDB</a></li><li><a href="http://www.dydh.org/zhoubian/mingxingwang.html" title="明星网" target="_blank" class="title0">明星网</a></li><li><a href="http://www.dydh.org/zhoubian/piaofangpaixingbang.html" title="票房排行榜" target="_blank" class="title0">票房排行榜</a></li><li><a href="http://www.dydh.org/zhoubian/dianyingtieba.html" title="电影贴吧" target="_blank" class="title0">电影贴吧</a></li><li><a href="http://www.dydh.org/zhoubian/juqingjieshaowang.html" title="剧情介绍网" target="_blank" class="title1">剧情介绍网</a></li><li><a href="http://www.dydh.org/zhoubian/chuanbangwang.html" title="穿帮网" target="_blank" class="title0">穿帮网</a></li><li><a href="http://www.dydh.org/zhoubian/yingpingwang.html" title="影评网" target="_blank" class="title0">影评网</a></li><li><a href="http://www.dydh.org/zhoubian/caoliudianyingwang.html" title="草榴社区" target="_blank" class="title0">草榴社区</a></li>            </ul>
+        </div>    </div>
+		<div class="right">
+	<div class="news">
+		<h3>最新上映电影</h3>
+		<ul>
+			<li><em style="background:#CC0000;color:#fff;">1</em><span>上映时间：2016-09-14</span><a href="http://www.dydh.tv/movie/dahuaxiyouzhongjiepian/" target="_blank">大话西游3 </a></li>
+<li><em style="background:#CC0000;color:#fff;">2</em><span>上映时间：2016-09-14</span><a href="http://www.dydh.tv/movie/fantanfengbao2/" target="_blank">反贪风暴2</a></li>
+<li><em style="background:#FF3300;color:#fff;">3</em><span>上映时间：2016-09-14</span><a href="http://www.dydh.tv/movie/qiyueyuansheng/" target="_blank">七月与安生</a></li>
+<li><em>4</em><span>上映时间：2016-09-14</span><a href="http://www.dydh.tv/movie/zhuixiongzheye/" target="_blank">追凶者也</a></li>
+<li><em>5</em><span>上映时间：2016-09-20</span><a href="http://www.dydh.tv/movie/baliweiji/" target="_blank">巴黎危机</a></li>
+<li><em>6</em><span>上映时间：2016-09-09</span><a href="http://www.dydh.tv/movie/m122389/" target="_blank">九条命</a></li>
+<li><em>7</em><span>上映时间：2016-09-15</span><a href="http://www.dydh.tv/movie/wodezhanzheng/" target="_blank">我的战争</a></li>
+<li><em>8</em><span>上映时间：2016-09-02</span><a href="http://www.dydh.tv/movie/xingjimihang13/" target="_blank">星际迷航3：超越星辰</a></li>
+<li><em>9</em><span>上映时间：2016-08-23</span><a href="http://www.dydh.tv/movie/bingchuanshidai5/" target="_blank">冰川时代5：星际碰撞 </a></li>
+		</ul>
+	</div>
+	<div style="clear:both"></div>
+	<div class="news">
+		<h3>最新电影资讯</h3>
+		<ul>	
+			<li><span>07-25</span><a href="http://www.dydh.org/news/5beae5d6.html" target="_blank" title="《西虹市首富》：圆你暴发户之梦">《西虹市首富》：圆你暴发户之梦</a></li><li><span>07-25</span><a href="http://www.dydh.org/news/d47f5a2e.html" target="_blank" title="《西虹市首富》大战《狄仁杰之四大天王》 究竟谁才是赢家">《西虹市首富》大战《狄仁杰之四...</a></li><li><span>07-25</span><a href="http://www.dydh.org/news/b1db6d13.html" target="_blank" title="《哥斯拉2》发布最新预告 四大怪兽争夺怪兽之王">《哥斯拉2》发布最新预告 四大怪...</a></li><li><span>07-25</span><a href="http://www.dydh.org/news/a79d5d15.html" target="_blank" title="《天下第一镖局》曝人物海报 功夫大咖齐聚一堂">《天下第一镖局》曝人物海报 功...</a></li><li><span>07-25</span><a href="http://www.dydh.org/news/6054bdea.html" target="_blank" title="《快把我哥带走》8.17欢乐上映 中国式兄妹的逗比日常">《快把我哥带走》8.17欢乐上映 ...</a></li><li><span>07-25</span><a href="http://www.dydh.org/news/8ae9f6aa.html" target="_blank" title="《爱情公寓》电影版欢乐来袭 8月10日爆笑一夏">《爱情公寓》电影版欢乐来袭 8月...</a></li>		</ul>
+	</div>
+</div>
+    <!-- 广告 -->
+	<div class="ad_960">
+    </div>
+</div>
+<div style="clear:both;height:10px;"></div>
+<div class="firlink">
+<div class="link_title"><h3>友情链接</h3></div>
+<div style="clear:both;height:10px;"></div>
+<div class="link">
+	<a href="http://www.gzzuowen.com/" target="_blank">格子作文网</a><a href="http://www.qpg123.com/" target="_blank">青苹果影院</a><a href="http://www.huahuo.com/" target="_blank">花火</a><a href="http://www.b2b101.com/" target="_blank">B2B网站大全</a><a href="http://www.dydh.org/" target="_blank">电影网站</a><a href="http://xue.paralworld.com/" target="_blank">唯美古诗词</a><a href="http://www.xinku.tv/" target="_blank">新酷网</a><a href="http://www.dxqedu.cn/" target="_blank">电影天堂</a><a href="https://www.guanggun163.com/" target="_blank">光棍电影</a><a href="https://www.poplp.com/" target="_blank">泡泡网址导航</a><a href="http://www.jjbhn.com/" target="_blank">湖南经济报网</a><a href="http://www.dongfangcaijing.cn/" target="_blank">网络推广</a><a href="http://www.tingyuxuan.com/" target="_blank">听雨轩文学网</a><a href="http://85duc.alihuahua.com/" target="_blank">85度C</a><a href="http://www.bage8.com/" target="_blank">八哥电影</a><a href="http://www.xuexibibei.com/" target="_blank">经典语录</a><a href="http://www.yuntiwen.com/" target="_blank">故事</a><a href="http://www.xmpcedu.com/" target="_blank">新闻头条</a><a href="http://www.laihuihua.com/" target="_blank">画画</a><a href="http://www.ye9.net/" target="_blank">文学</a><a href="http://365industry.com/" target="_blank">创业好项目</a><a href="http://www.gz-china.com/" target="_blank">不干胶印刷</a></div>
+<div style="clear:both;height:10px;"></div>
+</div>
+<div style="clear:both;height:10px;"></div>
+<!-- 尾部 -->
+<!-- 尾部 -->
+<div id="footer">
+    <div class="link_jw"> 
+		<span>电影网站大全|电影网站排行榜|电影网址导航</span>
+	</div>
+    <p class="copyright_jw"> Copyright &copy; 2015 <strong><a href="">电影导航网</strong></a> All Rights Reserved.</p>
+</div>
+<div style="display:none;"><script src="http://s9.cnzz.com/z_stat.php?id=1253283365&web_id=1253283365" language="JavaScript"></script>
+<script type="text/javascript" src="https://s4.cnzz.com/z_stat.php?id=1277935999&web_id=1277935999"></script></div>
+<!-- JS -->
+<script type="text/javascript" src="/template/movie/js/jquery-1.1.2.pack.js"></script>
+<script type="text/javascript" src="/template/movie/js/common.js"></script>
+</body>
+</html>
