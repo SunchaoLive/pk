@@ -202,11 +202,17 @@
 
 
 <head>
+
     <style>
         body{background-image:url("https://desk-fd.zol-img.com.cn/t_s1920x1080c5/g6/M00/02/0C/ChMkKV8eUhaIbkmZAA3GvQSuiHkAAALBwIGkaQADcbV853.jpg");
         no-repeat; background-size:100% 100%; background-attachment:fixed;}
     </style>
-    
+	
+ <!--   <style>
+        body{background-image:url("./bg/kng.jpg");
+        no-repeat; background-size:100% 100%; background-attachment:fixed;}
+    </style>
+	-->
     <script language="javascript">
     function searchForResults(){
 		var bHead="https://www.baidu.com/s?wd=";
@@ -227,24 +233,31 @@
     </script>
 	
 	<link rel="stylesheet" type="text/css" href="https://www.bootcss.com/p/buttons/css/buttons.css">
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+
 </head>
 
 <title>Pocket Knights 2导航</title>
-<div id="MainBody" style="height: auto;width:max-content;">
+<body class="container">
+<div id="MainBody" class="min-width:1920px">
 
-<div id="titleMain" style="height: auto;width:max-content;" class="grid">
-    <h1 color="white" style="color:whitesmoke; height:80px; font-size: 55px;text-align: left; text-rendering: auto; padding-left: 25px;">PK2 导航主页</h1>
-	<div id="searchPart" style="color:white;" class="div-float" class="grid-item">
-    <input type="search" id="search" style="height:40px; font-size: 35px; width:600px;vertical-align:top "/>
-	<select id="searchSelect" style="height:40px; font-size:15px; width:80px; vertical-align:top">
+<div id="titleMain" style="height: auto;width:max-content;" class="col-md-4">
+    <h1 color="white" style="color:whitesmoke; height:80px; font-size: 55px;text-align: left; text-rendering: auto;">PK2 导航主页</h1>
+	
+</div>
+<div id="searchPart" style="color:white;" class="col-md-6">
+    <input type="search" id="search" style="height:40px; font-size: 35px;vertical-align:top "/>
+	<select id="searchSelect" style="height:40px; font-size:15px;color:black; vertical-align:top">
 	<option value="baidu">百度</option>
 	<option value="google">Google</option>
 	</select>
-    <button id="goSearch" style="height:40px; font-size: 15px; width:120px;vertical-align:top" onClick="searchForResults()" class="button button-glow button-rounded button-royal">搜索</button>
+    <button id="goSearch" style="height:40px; font-size: 15px;vertical-align:top" onClick="searchForResults()" class="button button-glow button-rounded button-royal">搜索</button>
 
 </div>
-</div>
 
+<div id="contents" style="float:left" class="grid">
 <div id="GMJump" style="height: auto;width:max-content;" class="grid-item">
 <p style="padding-left: 25px;">
         <a href="http://platcom1.imobile-ent.com:8988/MngoOAsystem/main.jsp" target="_blank"> 
@@ -252,7 +265,6 @@
         </button>
     </a>
 </p>
-
 <p style="padding-left: 25px;">
     <a href="http://platcom1.imobile-ent.com:8988/D9CAsystem/Portal.action?postbackLocation=http://herosdseaop.imobile-ent.com:8988/D9OPPlatsystem/Login.action" target="_blank"> 
         <button id="main" style="height:40px;width:100px;">SEA后台
@@ -280,7 +292,11 @@
 </a>
 </p>
 </div>
+<div id="GMOperation" style="height:auto; width:max-content;" class="grid-item">
+
+<div>
 </div>
 
+</body>
 
 </html>
