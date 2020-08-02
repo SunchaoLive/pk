@@ -247,15 +247,16 @@
     <h1 color="white" style="color:whitesmoke; height:80px; font-size: 55px;text-align: left; text-rendering: auto;">PK2 导航主页</h1>
 	
 </div>
-<div id="searchPart" style="color:white; padding-top:25px" class="col-md-6">
+<form class="form-inline">
+<div id="searchPart" style="color:white; padding-top:25px" class="col-md-6 form-group">
     <input id="search" style="height:40px; font-size: 35px;vertical-align:top;color:black " class="form-control" placeholder="搜点儿什么吧~"/>
-	<select id="searchSelect" style="height:40px; font-size:15px;color:black; vertical-align:top">
+	<select id="searchSelect" style="height:40px; font-size:15px;color:black; vertical-align:top" class="form-control">
 	<option value="baidu">百度</option>
 	<option value="google">Google</option>
 	</select>
-    <button id="goSearch" style="height:40px; font-size: 15px;vertical-align:top" onClick="searchForResults()" class="button button-glow button-rounded button-royal">搜索</button>
-
+    <button id="goSearch" style="height:40px; font-size: 15px;vertical-align:top" onClick="searchForResults()" class="button button-glow button-rounded button-royal form-control">搜索</button>
 </div>
+</form>
 
 <div id="contents" style="float:left" class="col-md-6" >
 <div id="GMJump" style="height: auto;width:max-content;" class="col-md-6">
