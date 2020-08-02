@@ -204,7 +204,7 @@
 <head>
 
     <style>
-        body{background-image:url("https://desk-fd.zol-img.com.cn/t_s1920x1080c5/g6/M00/02/0C/ChMkKV8eUhaIbkmZAA3GvQSuiHkAAALBwIGkaQADcbV853.jpg");
+        body{background-image:url("http://pic1.win4000.com/wallpaper/b/59ae71419cae2.jpg");
         no-repeat; background-size:100% 100%; background-attachment:fixed;}
     </style>
 	
@@ -276,14 +276,16 @@
 
 
 <body onload=Timer()>
-<div id="MainBody">
+<div id="MainBody" class="container-fluid">
 
-<div id="titleMain" style="height: auto;width:max-content;" class="col-md-4">
-    <h1 color="white" style="color:whitesmoke; height:80px; font-size: 45px;text-align: left; text-rendering: auto;">PK2 导航主页</h1>
+<!-- <div id="titleMain" style="height: auto;width:max-content;" class="col-md-4">
+    <h1 color="white" style="height:80px; font-size: 45px;text-align: left; text-rendering: auto;">PK2 导航主页</h1>
 	
-</div><form class="form-inline">
+</div>
+-->
+<form class="form-inline">
 <div id="searchPart" style="color:white; padding-top:25px" class="col-md-8 form-group">
-    <input id="search" style="height:40px; font-size: 30px;vertical-align:top;color:black " class="form-control" placeholder="搜点儿什么吧~">
+    <input id="search" style="height:40px; font-size: 25px;vertical-align:top;color:black " class="form-control" placeholder="搜点儿什么吧~">
 	<select id="searchSelect" style="height:40px; font-size:20px;color:black; vertical-align:top" class="form-control">
 	<option value="baidu">百度</option>
 	<option value="google">Google</option>
@@ -292,7 +294,9 @@
 	<button id="clearSearch" style="height:40px; width:80px; font-size: 15px;vertical-align:top" onclick="clsSearch()" class="btn btn-danger">重置</button>
 </div>
 </form>
-<div id="GMJump" style="height: auto;width:max-content;vertical-align:left;padding-left:20px" class="">
+
+<div id="GMJump" style="padding-left:20px" class="col-sm-9">
+<div class="col-xs-8 col-sm-3">
 <p style="padding-top:40px">
         <a href="http://platcom1.imobile-ent.com:8988/MngoOAsystem/main.jsp" target="_blank"> 
         <button id="main" class="btn btn-primary" style="height:40px;width:200px;">协同管理平台
@@ -325,14 +329,23 @@
         </button>
     </a>
 </p>
-<p style="">
+
+</div>
+<div class="col-xs-4 col-sm-3">
+<p style="padding-top:40px;">
     <a href="https://pk2.worktile.com/mission/projects/5f0bd6b692034529c4d8b028" target="_blank"> 
-    <button id="WTBg" class="btn btn-warning" style="height:40px;width:200px; background-color: greenyellow;">Worktile
+    <button id="WTBg" class="btn btn-warning" style="height:40px;width:200px;">Worktile
     </button>
 </a>
 </p>
+</p>
+</div>
 </div>
 
+
+<div id="Website" class="col-md-4">
+
+</div>
 <div id="GMOperation" style="height:auto; width:max-content;" class="grid-item">
 </div>
 </div>
