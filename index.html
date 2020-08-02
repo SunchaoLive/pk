@@ -231,6 +231,37 @@
 		}
     
     </script>
+	<script language="javascript" type="text/javascript">  
+	function Timer(year,month,day,hour,minute,second){ 
+	  var leftTime = (new Date(year,month,day+1,hour,minute,second)) - (new Date()); //计算剩余的毫秒数 
+	  var days = parseInt(leftTime / 1000 / 60 / 60 / 24 , 10); //计算剩余的天数 
+	  var hours = parseInt(leftTime / 1000 / 60 / 60 % 24 , 10); //计算剩余的小时 
+	  var minutes = parseInt(leftTime / 1000 / 60 % 60, 10);//计算剩余的分钟 
+	  var seconds = parseInt(leftTime / 1000 % 60, 10);//计算剩余的秒数 
+	  days = checkTime(days); 
+	  hours = checkTime(hours); 
+	  minutes = checkTime(minutes); 
+	  seconds = checkTime(seconds); 
+	  setInterval("Timer(2019,00,00,00,00,00)",1000); 
+	 // console.log(days);
+	  if (isNaN(days)) { }
+	  else{
+	   
+		 document.getElementById("timer").innerHTML = days+"天" + hours+"小时" + minutes+"分"+seconds+"秒"; 
+	  }
+	  
+	} 
+	function checkTime(i){ //将0-9的数字前面加上0，例1变为01 
+	  if(i<10) 
+	  { 
+		i = "0" + i; 
+	  } 
+	  return i; 
+	} 
+	  
+	</script>
+
+
 	
 	<link rel="stylesheet" type="text/css" href="https://www.bootcss.com/p/buttons/css/buttons.css">
 
@@ -240,7 +271,7 @@
 <title>Pocket Knights 2导航</title></head>
 
 
-<body>
+<body onload=Timer()>
 <div id="MainBody">
 
 <div id="titleMain" style="height: auto;width:max-content;" class="col-md-4">
@@ -248,15 +279,15 @@
 	
 </div><form class="form-inline">
 <div id="searchPart" style="color:white; padding-top:25px" class="col-md-6 form-group">
-    <input id="search" style="height:40px; font-size: 35px;vertical-align:top;color:black " class="form-control" placeholder="搜点儿什么吧~">
-	<select id="searchSelect" style="height:40px; font-size:15px;color:black; vertical-align:top" class="form-control">
+    <input id="search" style="height:40px; width:450px; font-size: 30px;vertical-align:top;color:black " class="form-control" placeholder="搜点儿什么吧~">
+	<select id="searchSelect" style="height:40px; font-size:20px;color:black; vertical-align:top" class="form-control">
 	<option value="baidu">百度</option>
 	<option value="google">Google</option>
 	</select>
-    <button id="goSearch" style="height:40px; font-size: 15px;vertical-align:top" onclick="searchForResults()" class="button button-glow button-rounded button-royal form-control">搜索</button>
+    <button id="goSearch" style="height:40px; width:80px; font-size: 15px;vertical-align:top" onclick="searchForResults()" class="btn btn-success">搜索</button>
 </div>
 </form>
-<div id="GMJump" style="height: auto;width:max-content;vertical-align:left;" class="">
+<div id="GMJump" style="height: auto;width:max-content;vertical-align:left;padding-left:20px" class="">
 <p style="padding-top:40px">
         <a href="http://platcom1.imobile-ent.com:8988/MngoOAsystem/main.jsp" target="_blank"> 
         <button id="main" class="btn btn-primary" style="height:40px;width:200px;">协同管理平台
