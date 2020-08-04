@@ -267,6 +267,38 @@
     function clsSearch(){
 		document.getElementById("search").value="";
     }
+
+	function IDChangeFormat()
+	{
+		var string = document.getElementById("IDFormatInput").value;
+ 
+		//替换所有的换行符
+		string = string.replace(/\r\n/g,",")
+		string = string.replace(/\n/g,",");
+		
+		//替换所有的空格（中文空格、英文空格都会被替换）
+		string = string.replace(/\s/g,"");
+		while(string.charAt(string.length-1)==','){
+		
+				string=string.substr(0,string.length-1);
+		
+		}
+		
+		//输出转换后的字符串
+		console.log(string);
+
+		document.getElementById("IDFormatInput").value = string;
+
+
+	}
+
+	function IDFormatReset()
+	{
+		if(confirm("确定重置输入吗？"))
+		{
+			document.getElementById("IDFormatInput").value="";
+		}
+	}
     </script>
 
 	
@@ -293,8 +325,8 @@
 	<option value="baidu">百度</option>
 	<option value="google">Google</option>
 	</select>
-    <button id="goSearch" style="height:40px; width:80px; font-size: 15px;vertical-align:top" onclick="searchForResults()" class="btn btn-success">搜索</button>
-	<button id="clearSearch" style="height:40px; width:80px; font-size: 15px;vertical-align:top" onclick="clsSearch()" class="btn btn-danger">重置</button>
+    <button type="button" id="goSearch" style="height:40px; width:80px; font-size: 15px;vertical-align:top" onclick="searchForResults()" class="btn btn-success">搜索</button>
+	<button type="button" id="clearSearch" style="height:40px; width:80px; font-size: 15px;vertical-align:top" onclick="clsSearch()" class="btn btn-danger">重置</button>
 </div>
 </form>
 <div id="GMJump" style="padding-left:20px" class="col-sm-9">
@@ -363,7 +395,7 @@
 	<div class="col-xs-8 col-sm-3">
 		<p style="font-size: 25px; text-align-last: center;">功能</p>
 <!-- data-target触发模态弹出窗元素 -->
-<button class="btn btn-primary" data-toggle="modal" data-target="#id-format" type="button" style="height:40px;width:200px;">玩家ID格式化</button>
+<button class="btn btn-primary" data-toggle="modal" data-target="#id-format" type="button" style="height:40px;width:200px;" >玩家ID格式化</button>
 <!-- 模态弹出窗内容 -->
 <div class="modal" id="id-format" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
  <div class="modal-dialog">
@@ -373,7 +405,15 @@
  <h4 class="modal-title">ID格式化</h4>
  </div>
  <div class="modal-body">
- <p>我还没写好 哈哈哈哈哈哈 一下子接受不了吧</p>
+<form>
+	<div class="form-group">
+		<textarea id="IDFormatInput" class="form-control" rows="6"></textarea>
+	</div>
+	<div class="form-group" align="right">
+		<button type="button" class="btn btn-success" id="idChange" onclick="IDChangeFormat()">转换并复制</button>
+		<button type="button" class="btn btn-danger" id="idClear" onclick="IDFormatReset()">重置</button>
+	</div>
+</form>
  </div>
  <div class="modal-footer">
  <button type="button" class="btn btn-primary" data-dismiss="modal">溜了</button>
