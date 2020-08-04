@@ -288,7 +288,7 @@
 		console.log(string);
 
 		document.getElementById("IDFormatInput").value = string;
-
+		window.clipboardData.setData("Text",string);
 
 	}
 
@@ -300,7 +300,6 @@
 		}
 	}
     </script>
-
 	
 	<link rel="stylesheet" type="text/css" href="https://www.bootcss.com/p/buttons/css/buttons.css">
 
@@ -410,7 +409,7 @@
 		<textarea id="IDFormatInput" class="form-control" rows="6"></textarea>
 	</div>
 	<div class="form-group" align="right">
-		<button type="button" class="btn btn-success" id="idChange" onclick="IDChangeFormat()">转换并复制</button>
+		<button type="button" class="btn btn-success" id="idChange" onclick="IDChangeFormat()">转换</button>
 		<button type="button" class="btn btn-danger" id="idClear" onclick="IDFormatReset()">重置</button>
 	</div>
 </form>
