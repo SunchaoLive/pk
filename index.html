@@ -339,14 +339,21 @@
 </div>
 -->
 <form class="form-inline">
-<div id="searchPart" style="color:white; padding-top:25px" class="col-md-8 form-group">
-    <input id="search" style="height:40px; font-size: 25px;vertical-align:top;color:black " class="form-control" placeholder="搜点儿什么吧~">
-	<select id="searchSelect" style="height:40px; font-size:20px;color:black; vertical-align:top" class="form-control">
-	<option value="baidu">百度</option>
-	<option value="google">Google</option>
-	</select>
-    <button id="goSearch" style="height:40px; width:80px; font-size: 15px;vertical-align:top" onclick="searchForResults()" class="btn btn-success">搜索</button>
-	<button type="button" id="clearSearch" style="height:40px; width:80px; font-size: 15px;vertical-align:top" onclick="clsSearch()" class="btn btn-danger">重置</button>
+<div id="searchPart" style="color:white; padding-top:25px" class="col-sm-9 form-group">
+	<div id="mainsearch" class="col-xs-4 col-sm-6">
+		<input id="search" style="height:40px; font-size: 25px;vertical-align:top;color:black " class="form-control" placeholder="搜点儿什么吧~">
+		<select id="searchSelect" style="height:40px; font-size:20px;color:black; vertical-align:top" class="form-control">
+		<option value="baidu">百度</option>
+		<option value="google">Google</option>
+		</select>
+		<button id="goSearch" style="height:40px; width:80px; font-size: 15px;vertical-align:top" onclick="searchForResults()" class="btn btn-success">搜索</button>
+		<button type="button" id="clearSearch" style="height:40px; width:80px; font-size: 15px;vertical-align:top" onclick="clsSearch()" class="btn btn-danger">重置</button>
+	</div>
+
+	<div id="weather" class="col-xs-4 col-sm-3">
+		<a href="#"><iframe width="420" scrolling="no" height="45" frameborder="0" allowtransparency="true" src="https://i.tianqi.com?c=code&id=12&icon=4&py=xuhui&num=2&site=12"></iframe></a>
+	</div>
+
 </div>
 </form>
 <div id="GMJump" style="padding-left:20px" class="col-sm-9">
