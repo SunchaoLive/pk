@@ -314,6 +314,52 @@
 			document.getElementById("IDFormatInput").value="";
 		}
 	}
+
+	function initialData()
+	{
+		Timer();
+		getWeek();
+
+	}
+
+	function getWeek()
+	{
+		var d = new Date().getDay();
+		var data = [{'0':'周日'},{'1':'周一'},{'2':'周二'},{'3':'周三'},{'4':'周四'},{'5':'周五'},{'6':'周六'}];
+
+		//遍历获取数组里面的对象
+		for(var i = 0;i<data.length;i++){
+			//console.log(data[i])
+			//再次遍历对象，将对象里面的value取出来
+			for(var x in data[i]){
+				if(d == i){
+					switch (data[i][x]) {
+						case '周一':
+							document.getElementById("picWeek").src="./pic/1.jpg";
+							break;
+						case '周二':
+						document.getElementById("picWeek").src="./pic/2.jpg";
+							break;
+						case '周三':
+						document.getElementById("picWeek").src="./pic/3.jpg";
+							break;
+						case '周四':
+						document.getElementById("picWeek").src="./pic/4.jpg";
+							break;
+						case '周五':
+						document.getElementById("picWeek").src="./pic/5.jpg";
+							break;
+					
+						default:
+							break;
+					}
+					
+				}
+	
+			}
+		}
+	}
+
     </script>
 	<script type="text/javascript">
 	 toastr.options.positionClass = 'toast-center-center';
@@ -330,7 +376,7 @@
 <title>Pocket Knights 2导航</title></head>
 
 
-<body onload=Timer()>
+<body onload=initialData()></body>
 <div id="MainBody" class="container-fluid">
 
 <!-- <div id="titleMain" style="height: auto;width:max-content;" class="col-md-4">
@@ -353,6 +399,12 @@
 	<div id="weather" class="col-xs-4 col-sm-3">
 		<a href="#"><iframe width="420" scrolling="no" height="45" frameborder="0" allowtransparency="true" src="https://i.tianqi.com?c=code&id=12&icon=4&py=shanghai&num=2&site=12"></iframe></a>
 	</div>
+
+
+	<div id="pic" class="col-xs-4 col-sm-3" style="padding-left: 225px;">
+		<img id="picWeek" src="" class="img-rounded" style="width:100px; height: 95px;">
+	</div>
+
 
 </div>
 </form>
