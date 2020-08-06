@@ -326,11 +326,7 @@
 	{
 		var d = new Date().getDay();
 		var data = [{'0':'周日'},{'1':'周一'},{'2':'周二'},{'3':'周三'},{'4':'周四'},{'5':'周五'},{'6':'周六'}];
-
-		//遍历获取数组里面的对象
 		for(var i = 0;i<data.length;i++){
-			//console.log(data[i])
-			//再次遍历对象，将对象里面的value取出来
 			for(var x in data[i]){
 				if(d == i){
 					switch (data[i][x]) {
